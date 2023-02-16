@@ -8,7 +8,10 @@ root.title("Encode and Decode Messages Using Python")
 
 Label(root, text='Python Message Encoder and Decoder', font='arial 25 bold', fg='white', bg="purple").pack()
 
-Text = key = mode = Result = StringVar()
+Text = StringVar()
+key = StringVar()
+mode = StringVar()
+Result = StringVar()
 
 def Encode(key, message):
     enc = []
